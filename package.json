@@ -1,0 +1,22 @@
+{
+  "name": "hangman_node",
+  "version": "1.0.0",
+  "description": "Hangman Game in Node.js",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edogg23/Hangman-Node.git"
+  },
+  "author": "Ernest Clemons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edogg23/Hangman-Node/issues"
+  },
+  "homepage": "https://github.com/edogg23/Hangman-Node#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
