@@ -4,8 +4,9 @@ var inquirer = require('inquirer');
 var rdmWord = require('./wordbank.js');
 var letter = require('./letter.js');
 
-// var word = rdmWord.wordChoice(rdmWord.wordBank
-console.log("word: " + rdmWord);
+console.log("word: " , rdmWord.wordChoice());
+var word = new rdmWord.wordChoice();
+
 
 
 inquirer.prompt([
