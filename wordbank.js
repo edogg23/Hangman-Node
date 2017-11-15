@@ -24,12 +24,25 @@ var wordChoice = function() {
 var checkLetter = function(randomWord, letter) {
 	// function to check to see if the letter is in the word
 	// iterate randomeword and see if letter is in it
-}
+	// add the _s to the letter
+	wordLength = wordChoice(randomWord).length;
+	guessedWord = [];
+	guessedLetters = [];
+	guessesRemaining = 15;
+    correctGuessedLetters = 0;
+
+    for (var i = 0; i < wordLength; i++) {
+		guessedWord.push("_");
+	};
+	
+	console.log("wordLength: " + wordLength);
+	console.log("guessed word: " + guessedWord);
+};
 
 
 
-
-// console.log(wordChoice());
+checkLetter();
+console.log("last log: " , wordChoice());
 
 module.exports = {
 	wordChoice: wordChoice,
